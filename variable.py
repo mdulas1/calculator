@@ -1,11 +1,14 @@
-J# names of students
-'''
+# names of students
+
 first_name = "yusuf" # first_name is a variable that store first name of a user
 second_name = "aliyu" # second_name is a variable that store second name of a user
-
+'''
 customers name
 customer_name is a variable that store customer name
 marketer_name is avariable that store marketer  name
+
+'''
+
 
 customer_name  = "you"
 marketer_name = "I"
@@ -24,7 +27,6 @@ print(f"{name} {user} {customer}")
 print("{} {} {}".format(name,user,customer))
 print(name + " " + user + " " + " " + customer)
 print(name, user, customer)
-'''
 start = 3
 stop = 12
 step = 3

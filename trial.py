@@ -34,5 +34,5 @@ while  convert > 0:
      print(convert)
      convert = convert - 1
 print("your {} is ready".format(cooking_type))
-print("your {} is cooked at {} (second/minutes) ".format(cooking_type,time_to_finish))
+print("your {} is cooked at {} (minute/second) ".format(cooking_type,time_to_finish))
 print(my_home)

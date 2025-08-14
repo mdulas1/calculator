@@ -1,4 +1,5 @@
 #ploting in python programming
+
 '''
 from matplotlib .pyplot import *
 x = [1,2,3,4,5,6,7,8,9,10]
@@ -39,14 +40,28 @@ for i in range(start,stop,step):
     print(i)
 '''
 # using for loop to find the sum of a numbers
+
 data = [1,4,6,8,9,0]
 sum = 0
+
 #find the sum of all the numbers
+
 for x in data:
     sum = sum + x
 print(sum)
+
 #find the mean or average of all the numbers
+
 N = len(data)
 print(N)
-mean = sum/N
+mean = sum//N
 print(mean)
+
+numbers = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26}
+letters = {"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"}
+new = list(numbers)
+now = list(letters)
+new.sort()
+now.sort()
+convert = dict(zip(new,now))
+print(convert)

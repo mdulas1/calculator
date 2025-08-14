@@ -60,35 +60,23 @@ fighterFire = "gun_bullet"
 computerMemory = "free"
 diskSize = "100gb"
 remoteController = ' televetion'
-countries = '''
-alaska
-Algeria
-Angola
-Burkinafaso
-Cameroon
-Canada
-Chad
-China
-Egypt
-Ethopia
-France
-Ghana
-Horland
-Iran
-Isreal
-Korea
-Malawi
-Mali
-Marooco
-Niger
-Nigeria
-Russia
-Saudi Arabia
-senigal
-South Korea
-Switzaland
-Uganda
-Ukerean
-USA
-'''
-print(len(countries))
+countries = "alaska#Algeria#Angola#Burkinafaso#Cameroon#Canada#Chad#China#Egypt#Ethopia#France#Ghana#Horland#Iran#Isreal#Korea#Malawi#Mali#Marooco#Niger#Nigeria#Russia#Saudi Arabia#senigal#South Korea#Switzaland#Uganda#Ukerean#USA"
+new_countries = countries.split("#")
+print(new_countries)
+country1 = new_countries.index("France")
+arrenging = new_countries[11],new_countries[3], new_countries[15],new_countries[9],new_countries[18],new_countries[7],new_countries[10]
+new_list =[arrenging]
+countries.replace("alaska","plateau")
+print(countries[0])
+print(new_list)
+print(myWork)
+
+fruit = "Apple"
+print(fruit[1:-1])
+if 10 == "10":
+    print("A")
+elif "bag" > "apple" and "bag" > "cat":
+    print("B")
+else:
+    print("C")
+

@@ -1,3 +1,4 @@
+'''
 first_favorite_color = "Blue"
 second_favorite_color = "Black"
 third_favorite_color = "Pink"
@@ -19,6 +20,20 @@ countries = ["Australia","Nigeria","Malawi","USA","Iran","Iserael","Ghana","Russ
 print(countries)
 print(countries[-1])
 print(len(countries))
+'''
 
+password = input("enter your password here")
+first = password[0]
+last = password[-1]
+length = len(password) - 2
+stars = "*" * length 
+secret_pass = first+stars+last
+print(secret_pass)
 
-
+email = input("enter your email here")
+first_name = email[:5]
+last_name = email[-5:]
+length = len(email) - 10
+stars = "*" * length
+hidden_mail = first_name+stars+last_name
+print(hidden_mail)
